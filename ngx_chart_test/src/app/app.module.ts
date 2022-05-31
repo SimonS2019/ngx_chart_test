@@ -5,10 +5,12 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LineChartComponent } from './line-chart/line-chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
